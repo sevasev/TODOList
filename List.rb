@@ -1,4 +1,3 @@
-
 Shoes.app(title: "TODO List",
    	      width: 400, height: 500) {
 
