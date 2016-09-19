@@ -9,7 +9,6 @@ Shoes.app(title: "TODO List",
 			@item = edit_line width: 400
 		end
 	end
-
 }
 
 
