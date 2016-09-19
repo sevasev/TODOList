@@ -3,12 +3,15 @@ Shoes.app(title: "TODO List",
 
 	background "#feff54".."#ff0067"
 	@welcome = para "TODO List", size: 35, align: "center", underline: "single"
+	out_file = File.open("ListItems.txt", "a+")
 	stack do
 		@new_item = button "New Item"
 		@new_item.click() do 
 			@item = edit_line width: 400
 		end
+		out_file.puts(@item)
 	end
+	out_file.close()
 }
 
 
