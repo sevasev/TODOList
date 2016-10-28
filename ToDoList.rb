@@ -12,7 +12,3 @@ Shoes.app :width => 500, :height => 600 do
 	end
 end
 
-
-
-
-
